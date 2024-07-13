@@ -1,0 +1,18 @@
+
+
+.container{
+  display: grid;
+  grid-template-columns:repeat(3, 200px);
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+
+  
+}
+
+.items{
+  border: 1px solid green;
+  padding: 20px;
+  text-align: center;
+  background-color: gold;
+}
